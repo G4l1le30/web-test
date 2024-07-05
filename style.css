@@ -3,32 +3,29 @@
         padding: 0;
         box-sizing: border-box;
     }
-    /* Misalnya, untuk tampilan produk pada layar kecil */
 @media (max-width: 768px) {
     .product {
         max-width: 100%;
     }
 }
 
-/* Menyesuaikan header untuk layar kecil */
 @media (max-width: 768px) {
     header .logo img {
-        height: 30px; /* Ukuran logo disesuaikan */
+        height: 30px; 
     }
     nav ul {
-        flex-direction: column; /* Navigasi diubah menjadi tata letak kolom */
+        flex-direction: column;
     }
     nav ul li {
-        margin-left: 0; /* Margin pada elemen navigasi dihapus */
-        margin-bottom: 10px; /* Margin bawah ditambahkan untuk jarak antar tautan */
+        margin-left: 0; 
+        margin-bottom: 10px; 
     }
 }
 
-/* Menyesuaikan formulir kontak untuk layar kecil */
 @media (max-width: 768px) {
     .contact input,
     .contact textarea {
-        width: calc(100% - 20px); /* Mengurangi padding agar lebar sesuai */
+        width: calc(100% - 20px);
     }
 }
 
