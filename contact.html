@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak Kami</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
     <style>
         .button-container {
@@ -47,8 +47,9 @@
         <section id="contact" class="contact">
             <div class="container">
                 <h2>Kontak Kami</h2>
-                <form action="send_email.php" method="post">
+                <form action="https://api.web3forms.com/submit" method="post">
                     <label for="name">Nama:</label>
+                    <input type="hidden" name="access_key" value="af60e6cc-606d-45b9-b8f1-b8955c60cbee">
                     <input type="text" id="name" name="name" required>
 
                     <label for="email">Email:</label>
@@ -68,7 +69,6 @@
         </section>
     </main>
     
-    
     <script src="scripts.js"></script>
     <script>
         document.getElementById('back-button').addEventListener('click', function(event) {
@@ -77,5 +77,4 @@
         });
     </script>
 </body>
-
 </html>
