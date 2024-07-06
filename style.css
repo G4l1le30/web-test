@@ -7,10 +7,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa; /* Background warna lebih cerah */
     color: #333;
 }
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -19,10 +18,9 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #343a40; /* Warna header lebih gelap */
     color: white;
 }
-
 header .container {
     display: flex;
     justify-content: space-between;
@@ -234,7 +232,7 @@ footer {
 }
 
 .testimonial-images img {
-    max-width: 100%; /* Foto maksimum lebarnya adalah 100% dari container */
+    max-width: 300px; /* Foto maksimum lebarnya adalah 100% dari container */
     height: auto;
     border-radius: 15px; /* Ujung yang tumpul */
     margin-bottom: 20px; /* Jarak antara gambar di bawah */
