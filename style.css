@@ -215,6 +215,10 @@ footer {
     .contact textarea {
         width: calc(100% - 20px);
     }
+    .testimonial-images {
+        flex-direction: column; /* Mengubah tata letak menjadi satu kolom */
+        align-items: center; /* Pusatkan gambar di tengah */
+    }
 }
 .testimonials {
     background: #f4f4f4;
@@ -226,10 +230,12 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px; /* Jarak antar gambar */
+    flex-wrap: wrap; /* Memastikan gambar bisa wrap di layar kecil */
 }
 
 .testimonial-images img {
-    width: 350px; /* Sesuaikan ukuran sesuai kebutuhan */
+    max-width: 100%; /* Foto maksimum lebarnya adalah 100% dari container */
     height: auto;
     border-radius: 15px; /* Ujung yang tumpul */
+    margin-bottom: 20px; /* Jarak antara gambar di bawah */
 }
